@@ -177,3 +177,15 @@ class GameScene:
             self.clock.tick(FPS)
 
         pygame.quit()
+
+# E3: small HUD helper (non-invasive)
+def _format_hud_state(state: str) -> str:
+    mapping = {
+        "SHOWING": "Memorize…",
+        "PLAYING": "Recreate!",
+        "WON": "You WON!",
+        "LOST": "You LOST!",
+    }
+    return mapping.get(state, state)
+
+
