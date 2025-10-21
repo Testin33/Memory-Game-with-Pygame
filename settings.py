@@ -17,7 +17,7 @@ HIDE_FLIP_MS = 350           # visual flip duration after showing
 TOTAL_TIME_SECONDS = 40
 
 # Colors
-COLOR_BG = (170, 120, 12)
+COLOR_BG = (69, 69, 69)
 COLOR_GRID = (40, 46, 52)
 COLOR_TILE = (63, 81, 181)
 COLOR_TILE_HL = (255, 215, 64)
