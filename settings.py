@@ -17,6 +17,10 @@ HIDE_FLIP_MS = 350           # visual flip duration after showing
 TOTAL_TIME_SECONDS = 40
 
 # Colors
+#changes made for experiment 2 trial 
+COLOR_ERROR = (255,85,85) #Bright red for error
+COLOR_WARNING = (255,165,0)  # Orange for warnings
+
 COLOR_BG = (69, 69, 69)
 COLOR_GRID = (40, 46, 52)
 COLOR_TILE = (63, 81, 181)
