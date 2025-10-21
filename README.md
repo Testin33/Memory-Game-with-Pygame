@@ -1,5 +1,5 @@
 # Memory Game (Pygame)
-
+Single screen memory game: it displays a random pattern, hides it with a flip effect, and the player must reconstruct it with clicks within 40 seconds. Pure logic separated from the render for CI testing.
 Juego de memoria en una sola pantalla: muestra un patrón aleatorio, lo oculta con un efecto de flip y el jugador debe reconstruirlo con clics antes de 40 s. Lógica pura separada del render para poder testear en CI.
 
 ## Ejecutar
